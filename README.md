@@ -23,7 +23,7 @@ BTL/
 ├── main.py
 ├── gui_app.py
 ├── requirements.txt
-├── dataset/
+├── DataSet/
 │   └── customer_shopping_data.csv
 ├── pipeline/
 │   ├── __init__.py
