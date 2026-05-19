@@ -1,16 +1,15 @@
-"""
-main.py
-Chạy giao diện phân cụm shopping mall theo mall_score.
+"""main.py
+Chạy giao diện phân cụm khách hàng.
 
 Cách chạy:
+    pip install -r requirements.txt
     python main.py
 """
-
-from gui_app import MallClusteringApp
+from gui_app import CustomerClusteringApp
 
 
 def main():
-    app = MallClusteringApp()
+    app = CustomerClusteringApp()
     app.mainloop()
 
 

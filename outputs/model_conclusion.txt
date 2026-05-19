@@ -1,0 +1,30 @@
+KẾT LUẬN TỰ ĐỘNG
+
+Mô hình được đề xuất: KMeans với k = 3
+
+Chỉ số của mô hình được đề xuất:
+- Silhouette Score: 0.522855  (càng cao càng tốt)
+- Davies-Bouldin Index: 0.641981  (càng thấp càng tốt)
+- Calinski-Harabasz Index: 154256.090268  (càng cao càng tốt)
+- Cluster Balance Score: 0.625968  (càng gần 1 càng cân bằng)
+- Rank Score tổng hợp: 0.853203
+
+So sánh mô hình tốt nhất của từng thuật toán:
+- KMeans tốt nhất: k=3, Silhouette=0.522855, DBI=0.641981, CHI=154256.090268, Balance=0.625968, Rank=0.853203
+- KMedoids tốt nhất: k=3, Silhouette=0.516161, DBI=0.635492, CHI=152331.661970, Balance=0.648638, Rank=0.844708
+
+Giải thích:
+KMeans phù hợp hơn trong lần chạy này vì đạt điểm tổng hợp cao hơn. KMeans thường dễ giải thích bằng centroid và có Inertia/WCSS để quan sát Elbow Method.
+
+Việc gán nhãn khách hàng KHÔNG được thực hiện trước khi gom cụm.
+Sau khi có cụm, chương trình thống kê từng cụm theo:
+- số lượng khách hàng,
+- age trung bình,
+- totalprice trung bình,
+- totalprice nhỏ nhất,
+- totalprice lớn nhất,
+- điểm giá trị cụm.
+
+Cụm có giá trị thấp hơn được gán về nhóm vãng lai/mới.
+Cụm có giá trị cao hơn được gán về nhóm trung thành/V.I.P.
+Nếu k khác 5, một số nhãn có thể không xuất hiện hoặc nhiều cụm có thể cùng cấp nhãn.

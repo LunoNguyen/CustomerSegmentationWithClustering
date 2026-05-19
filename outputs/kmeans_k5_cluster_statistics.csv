@@ -1,0 +1,6 @@
+﻿cluster,label,customer_count,avg_age,avg_totalprice,min_totalprice,max_totalprice,avg_quantity,total_quantity,cluster_size_ratio,cluster_value_score
+2,Khách hàng vãng lai,26216,26.4698,649.7501,5.23,2700.72,2.6266,68859,0.2636,-0.1
+0,Khách hàng mới,24927,43.9535,652.7314,5.23,2700.72,2.6212,65339,0.2506,-0.0147
+4,Khách hàng thân thiết,24469,61.0209,651.7648,5.23,2700.72,2.6237,64199,0.246,0.0625
+3,Khách hàng trung thành,11981,30.5918,5847.7765,4200.0,6547.28,4.1975,50290,0.1205,0.7662
+1,Khách hàng V.I.P,11864,56.467,5853.7668,4200.0,6547.28,4.2165,50025,0.1193,0.8802
